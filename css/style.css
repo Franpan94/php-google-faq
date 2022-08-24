@@ -1,0 +1,36 @@
+.ms_margin_left{
+    margin-left: 20px;
+}
+
+.ms_padding_left{
+    padding: 0 20px;
+}
+
+.ms_width_google{
+    width: 150px;
+}
+
+.ms_accessories{
+    font-size: 30px;
+    margin-left: -20px;
+}
+
+.ms_color{
+    color: gray;
+}
+
+.ms_font{
+    font-size: 20px;
+}
+
+.ms_p_btn{
+    padding: 5px 20px;
+}
+
+.ms_margin{
+    margin: 20px;
+}
+
+.ms_border_bottom{
+    border-bottom: 1px solid gray;
+}
