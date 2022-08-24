@@ -26,11 +26,21 @@
     <div class="ms_font ms_color ms_border_bottom pb-2">
         <?php
         $links = [
-            '<span class="ms_margin_left">Introduzione</span>',
-            '<span class="ms_padding_left">Norme sulla privacy</span>',
-            'Termini di servizio',
-            '<span class="ms_padding_left">Tecnologie</span>',
-            'Domande frequenti'
+            '<div class="ms_hover1">',
+              '<span class="ms_margin_left">Introduzione</span>',
+            '</div>', 
+            '<div class="ms_hover2 ms_hover1">', 
+               '<span class="ms_padding_left">Norme sulla privacy</span>',
+            '</div>', 
+            '<div class="ms_hover3 ms_hover1">',
+               '<span class="ms_over">Termini di servizio</span>',
+            '</div>', 
+            '<div class="ms_hover4 ms_hover1">',
+               '<span class="ms_padding_left ms_over1">Tecnologie</span>',
+            '</div>', 
+            '<div class="ms_hover5 ms_hover1">',
+               '<span class="ms_hover">Domande frequenti</span>',
+            '</div>', 
         ];
 
         foreach ($links as $link) {

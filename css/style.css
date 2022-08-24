@@ -34,3 +34,42 @@
 .ms_border_bottom{
     border-bottom: 1px solid gray;
 }
+
+.ms_hover1{
+    display: inline-block;
+}
+
+.ms_hover1:hover .ms_margin_left{
+    color: rgb(19, 132, 189);
+    border-bottom: 4px solid rgb(19, 132, 189);
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+
+.ms_hover2:hover .ms_padding_left{
+    color: rgb(19, 132, 189);
+    border-bottom: 4px solid rgb(19, 132, 189);
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+
+.ms_hover3:hover .ms_over{
+    color: rgb(19, 132, 189);
+    border-bottom: 4px solid rgb(19, 132, 189);
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+
+.ms_hover4:hover .ms_over1{
+    color: rgb(19, 132, 189);
+    border-bottom: 4px solid rgb(19, 132, 189);
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+
+.ms_hover5:hover .ms_hover{
+    color: rgb(19, 132, 189);
+    border-bottom: 4px solid rgb(19, 132, 189);
+    padding-bottom: 7px;
+    cursor: pointer;
+}
